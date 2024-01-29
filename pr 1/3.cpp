@@ -27,7 +27,7 @@ int x = inches /12;
   feet=feet+x;
   inches=inches-(x*10);
 
-     cout << feet;
+     cout << feet << endl;
      cout << inches;
   
   }
