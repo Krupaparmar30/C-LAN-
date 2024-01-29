@@ -22,12 +22,11 @@ main()
   cout << " enter the value of inches :";
   cin >> inches;
   
-//     feet = inches /12;
-//     
-//     inches=feet*12;
+int x = inches /12;
 
-    feet=inches/12;
-//     
+  feet=feet+x;
+  inches=inches-(x*10);
+
      cout << feet;
      cout << inches;
   
