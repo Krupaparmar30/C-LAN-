@@ -67,7 +67,7 @@ int main()
    
    emp m1[100];	
    int i;
-   for(i=0;i<1;i++)
+   for(i=0;i<5;i++)
    {
     cout <<endl;
    	m1[i].input();
@@ -75,7 +75,7 @@ int main()
     printf("\n");
    }
    
-   for(i=0;i<1;i++)
+   for(i=0;i<5;i++)
    {
    	 m1[i].output();
    	 printf("\n");
