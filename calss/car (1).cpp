@@ -65,8 +65,7 @@ int main()
 	{
 		cout <<endl;
    	s1[i].input();
-   	
-    printf("\n");
+	cout<<endl;
 	}
 	
 	
@@ -74,8 +73,7 @@ int main()
 	{
 		cout <<endl;
    	  s1[i].output();
-   	
-    printf("\n");
+         cout<<endl;
 	}
 	return 0;
 }
