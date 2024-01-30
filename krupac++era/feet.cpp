@@ -5,7 +5,11 @@ class Distanes{
 	public:
 		int feet;
 		int inches;
+		int feet1;
+		int inches1;
 		int x;
+		int sum=0;
+		int sum1=0;
 	void input()
 	{
 		cout<<"enter the feet value :";
@@ -13,14 +17,25 @@ class Distanes{
 		
 		cout <<"enter the inches value :";
 		cin>>inches;
+		
+		cout << "entre the feet : ";
+		cin >> feet1;
+		
+		cout << "entre the inc : ";
+		cin >> inches1;
 		}
 		void output()
 		{
-			x=inches/12;
-			feet=feet+x;
-			inches=inches-(x*12);
+			sum=feet+feet1;
+			sum1=inches+inches1;
 			
-			cout <<feet <<endl<<inches;
+			x=sum1/12;
+			sum=sum+x;
+			sum1=sum1-(x*12);
+			
+		
+			
+			cout << endl<<sum <<sum1;
 			}	
 };
 
