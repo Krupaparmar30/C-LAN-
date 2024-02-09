@@ -26,9 +26,9 @@ class R :public Q
 	public:
 		void Kelvinto()
 		{
-			Kelvin= (5/9 * Fahrenheit) + 459.67;
-//		
-			 cout<<Kelvin;
+			
+		Kelvin=5/9*Fehrenheit+459.67;
+		cout<<Kelvin;
 		}
 	
 };
